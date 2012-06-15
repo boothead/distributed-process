@@ -2,6 +2,7 @@ tags
 TAGS
 dist/
 \#*#
+*\#*
 *~
 *.aux
 *.hp

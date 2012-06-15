@@ -1,0 +1,31 @@
+Name:                network-transport-zmq
+Version:             0.0.1.1
+-- Version History:
+-- 0.0.1.1  - Initial
+
+Description:         ØMQ backend for network-transport interface.
+License:             BSD3
+License-file:        LICENSE
+Author:              Ben Ford
+Maintainer:          ben.fordnz@gmail.com
+Homepage:            http://github.com/boothead/distributed-process
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+
+Library
+  Build-Depends:     base >= 3 && < 5,
+                     binary >= 0.5,
+                     cereal,
+                     bytestring >= 0.9,
+                     network-transport >= 0.0.1.1,
+                     containers >= 0.4,
+--                     network >= 2.3,
+--                     safe >= 0.3,
+                     unix >= 2.5.0.0, 
+                     random, 
+                     directory,
+                     unix-bytestring >= 0.3.5.3	
+  Exposed-modules:   Network.Transport.ZMQ
+--  Extensions:        BangPatterns
+  ghc-options:       -Wall
+  HS-Source-Dirs:    src
