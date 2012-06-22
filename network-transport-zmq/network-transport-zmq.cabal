@@ -19,6 +19,7 @@ Library
                      bytestring >= 0.9,
                      network-transport >= 0.0.1.1,
                      containers >= 0.4,
+                     data-accessor >= 0.2.2.2,
 --                     network >= 2.3,
 --                     safe >= 0.3,
                      unix >= 2.5.0.0, 
